@@ -119,4 +119,3 @@ Batch 1에 단수명 사례가 부족하고, 선택한 트리 모델이 학습�
 ## 참고문헌 및 수행 역할
 
 - Severson et al. (2019), *Data-driven prediction of battery cycle life before capacity degradation*, Nature Energy 4, 383–391. https://doi.org/10.1038/s41560-019-0356-8
-- 심지용: EDA 검토, 피처 의미·선정 논리 검토, 모델 개발 과정 이해 및 성능·오류 해석 검토
