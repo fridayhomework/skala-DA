@@ -1,0 +1,18 @@
+feature_set,model,n_features,cv_mape,valid_mape,gap_train_valid,best_params
+dq_log_var_only,GradientBoosting,1,8.88974678766529,5.885141295843648,-3.004605491821642,"{""regressor__model__learning_rate"": 0.1, ""regressor__model__max_depth"": 1, ""regressor__model__min_samples_leaf"": 2, ""regressor__model__n_estimators"": 100}"
+dq_core,GradientBoosting,2,8.966949363821644,6.063200592282999,-2.9037487715386456,"{""regressor__model__learning_rate"": 0.1, ""regressor__model__max_depth"": 1, ""regressor__model__min_samples_leaf"": 2, ""regressor__model__n_estimators"": 100}"
+core_plus_health,GradientBoosting,5,9.120730855756117,7.325450848212384,-1.7952800075437327,"{""regressor__model__learning_rate"": 0.1, ""regressor__model__max_depth"": 1, ""regressor__model__min_samples_leaf"": 2, ""regressor__model__n_estimators"": 50}"
+all_candidates,GradientBoosting,15,8.525373495032825,7.847213327570676,-0.6781601674621491,"{""regressor__model__learning_rate"": 0.1, ""regressor__model__max_depth"": 1, ""regressor__model__min_samples_leaf"": 2, ""regressor__model__n_estimators"": 100}"
+dq_core,ElasticNet,2,7.341131659484164,10.917028350572844,3.57589669108868,"{""regressor__model__alpha"": 0.1, ""regressor__model__l1_ratio"": 0.1}"
+dq_core,Ridge,2,7.2652419594749675,12.726346408002629,5.461104448527661,"{""regressor__model__alpha"": 1.0}"
+all_candidates,ElasticNet,15,6.954242759942542,13.406406548141184,6.452163788198643,"{""regressor__model__alpha"": 0.01, ""regressor__model__l1_ratio"": 0.9}"
+dq_core,Huber,2,8.430471745787818,13.717315131716697,5.286843385928879,"{""regressor__model__alpha"": 0.01, ""regressor__model__epsilon"": 1.7}"
+all_candidates,Ridge,15,7.82645364276984,14.138324236835487,6.311870594065647,"{""regressor__model__alpha"": 1.0}"
+none,MedianBaseline,0,22.957722133539797,14.203162071242515,-8.754560062297282,{}
+dq_log_var_only,Ridge,1,6.973423076404642,16.453986561048158,9.480563484643515,"{""regressor__model__alpha"": 0.01}"
+dq_log_var_only,ElasticNet,1,6.973172983104554,16.458089233425838,9.484916250321284,"{""regressor__model__alpha"": 0.0001, ""regressor__model__l1_ratio"": 0.1}"
+dq_log_var_only,Huber,1,7.0026801058543375,16.788343806091603,9.785663700237265,"{""regressor__model__alpha"": 0.01, ""regressor__model__epsilon"": 1.7}"
+core_plus_health,ElasticNet,5,7.680932335122555,18.23183971680683,10.550907381684276,"{""regressor__model__alpha"": 0.01, ""regressor__model__l1_ratio"": 0.9}"
+core_plus_health,Ridge,5,9.236321216377771,20.0915753108012,10.85525409442343,"{""regressor__model__alpha"": 1.0}"
+core_plus_health,Huber,5,8.193893288293202,21.207773080997494,13.013879792704293,"{""regressor__model__alpha"": 0.001, ""regressor__model__epsilon"": 1.1}"
+all_candidates,Huber,15,8.109535491038383,42.144525851859335,34.034990360820956,"{""regressor__model__alpha"": 0.0001, ""regressor__model__epsilon"": 1.1}"

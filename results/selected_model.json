@@ -1,0 +1,15 @@
+{
+  "feature_set": "dq_log_var_only",
+  "features": [
+    "dq_log_var"
+  ],
+  "model": "GradientBoosting",
+  "best_params": {
+    "regressor__model__learning_rate": 0.1,
+    "regressor__model__max_depth": 1,
+    "regressor__model__min_samples_leaf": 2,
+    "regressor__model__n_estimators": 100
+  },
+  "target_transform": "log / exp inverse",
+  "selection_rule": "within 1 percentage point of best Valid MAPE, prefer fewer features then smaller gap"
+}

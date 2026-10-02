@@ -1,0 +1,16 @@
+feature,group,available_by_cycle,selection_reason
+dq_log_var,delta_q_core,100,DAY 1에서 Cycle Life와 강하고 Batch별 방향이 일관된 ΔQ(V) 신호
+dq_min,delta_q_core,100,DAY 1에서 Cycle Life와 강하고 Batch별 방향이 일관된 ΔQ(V) 신호
+qd_10,capacity,100,초기 방전용량 수준과 Cycle 10~100의 감소 추세
+qd_100,capacity,100,초기 방전용량 수준과 Cycle 10~100의 감소 추세
+qd_delta_100_10,capacity,100,초기 방전용량 수준과 Cycle 10~100의 감소 추세
+qd_slope_10_100,capacity,100,초기 방전용량 수준과 Cycle 10~100의 감소 추세
+ir_10,resistance,100,초기 내부저항 수준과 변화량
+ir_100,resistance,100,초기 내부저항 수준과 변화량
+ir_delta_100_10,resistance,100,초기 내부저항 수준과 변화량
+mean_tavg_100,temperature,100,초기 100사이클의 열적 운전 조건
+mean_tmax_100,temperature,100,초기 100사이클의 열적 운전 조건
+mean_chargetime_100,charge_condition,100,충전시간과 충전 프로토콜의 수치형 조건
+policy_first_c_rate,charge_condition,100,충전시간과 충전 프로토콜의 수치형 조건
+policy_switch_soc,charge_condition,100,충전시간과 충전 프로토콜의 수치형 조건
+policy_second_c_rate,charge_condition,100,충전시간과 충전 프로토콜의 수치형 조건

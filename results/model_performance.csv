@@ -1,0 +1,7 @@
+구분,MAPE (%),비고
+Train (Batch 1 CV),8.88974678766529,정책 그룹 5-Fold CV
+Valid (Batch 1 Hold-out),5.885141295843648,Train과 충전정책 중복 없음
+Test (Batch 2),30.437187575486686,최종 모델 확정 후 1회 평가
+Gap (Train-Valid),-3.004605491821642,(+) 과적합·정책 일반화 저하 의심
+Gap (Valid-Test),24.552046279643037,(+) Batch 간 일반화 저하 의심
+Gap (Target-Test),21.337187575486688,Target: 원논문 9.1%
